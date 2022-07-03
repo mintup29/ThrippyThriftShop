@@ -13,6 +13,7 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="style/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   </head>
 
   <body>
@@ -23,7 +24,7 @@
     >
       <div class="container">
         <a class="navbar-brand" href="/">
-          <img src="/images/logo.svg" alt="" />
+          <img src="/images/logo.png" alt="" />
         </a>
         <button
           class="navbar-toggler"
@@ -38,6 +39,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <input class="search-box" type="text" name="Search" placeholder="Type to search">
+              <a class="search-btn" href="#">
+                <i class="fas fa-search"></i>
+              </a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="/">Home </a>
             </li>
@@ -45,7 +52,7 @@
               <a class="nav-link" href="/categories.html">Categories</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Rewards</a>
+              <a class="nav-link" href="#">Chat</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/register.html">Sign Up</a>
@@ -80,14 +87,12 @@
               <a class="component-categories d-block" href="#">
                 <div class="categories-image">
                   <img
-                    src="/images/categories-gadgets.svg"
+                    src="/images/eceran.png"
                     alt="Gadgets Categories"
                     class="w-100"
                   />
                 </div>
-                <p class="categories-text">
-                  Gadgets
-                </p>
+                <p class="categories-text">Eceran</p>
               </a>
             </div>
             <div
@@ -98,86 +103,12 @@
               <a class="component-categories d-block" href="#">
                 <div class="categories-image">
                   <img
-                    src="/images/categories-furniture.svg"
+                    src="/images/grosir.png"
                     alt="Furniture Categories"
                     class="w-100"
                   />
                 </div>
-                <p class="categories-text">
-                  Furniture
-                </p>
-              </a>
-            </div>
-            <div
-              class="col-6 col-md-3 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <a class="component-categories d-block" href="#">
-                <div class="categories-image">
-                  <img
-                    src="/images/categories-makeup.svg"
-                    alt="Makeup Categories"
-                    class="w-100"
-                  />
-                </div>
-                <p class="categories-text">
-                  Makeup
-                </p>
-              </a>
-            </div>
-            <div
-              class="col-6 col-md-3 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <a class="component-categories d-block" href="#">
-                <div class="categories-image">
-                  <img
-                    src="/images/categories-sneaker.svg"
-                    alt="Sneaker Categories"
-                    class="w-100"
-                  />
-                </div>
-                <p class="categories-text">
-                  Sneaker
-                </p>
-              </a>
-            </div>
-            <div
-              class="col-6 col-md-3 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <a class="component-categories d-block" href="#">
-                <div class="categories-image">
-                  <img
-                    src="/images/categories-tools.svg"
-                    alt="Tools Categories"
-                    class="w-100"
-                  />
-                </div>
-                <p class="categories-text">
-                  Tools
-                </p>
-              </a>
-            </div>
-            <div
-              class="col-6 col-md-3 col-lg-2"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
-              <a class="component-categories d-block" href="#">
-                <div class="categories-image">
-                  <img
-                    src="/images/categories-baby.svg"
-                    alt="Baby Categories"
-                    class="w-100"
-                  />
-                </div>
-                <p class="categories-text">
-                  Baby
-                </p>
+                <p class="categories-text">Grosir</p>
               </a>
             </div>
           </div>
@@ -191,6 +122,7 @@
             </div>
           </div>
           <div class="row">
+            <div class="row">
             <div
               class="col-6 col-md-4 col-lg-3"
               data-aos="fade-up"
@@ -205,12 +137,8 @@
                     "
                   ></div>
                 </div>
-                <div class="products-text">
-                  Apple Watch 4
-                </div>
-                <div class="products-price">
-                  $890
-                </div>
+                <div class="products-text">Apple Watch 4</div>
+                <div class="products-price">$890</div>
               </a>
             </div>
             <div
@@ -227,12 +155,8 @@
                     "
                   ></div>
                 </div>
-                <div class="products-text">
-                  Orange Bogotta
-                </div>
-                <div class="products-price">
-                  $94,509
-                </div>
+                <div class="products-text">Orange Bogotta</div>
+                <div class="products-price">$94,509</div>
               </a>
             </div>
             <div
@@ -244,17 +168,11 @@
                 <div class="products-thumbnail">
                   <div
                     class="products-image"
-                    style="
-                      background-image: url('/images/products-sofa-ternyaman.jpg');
-                    "
+                    style="background-image: url('/images/produk1.jpg')"
                   ></div>
                 </div>
-                <div class="products-text">
-                  Sofa Ternyaman
-                </div>
-                <div class="products-price">
-                  $1,409
-                </div>
+                <div class="products-text">Zip Jeans Denim</div>
+                <div class="products-price">$1,409</div>
               </a>
             </div>
             <div
@@ -266,17 +184,11 @@
                 <div class="products-thumbnail">
                   <div
                     class="products-image"
-                    style="
-                      background-image: url('/images/products-bubuk-maketti.jpg');
-                    "
+                    style="background-image: url('/images/produk2.jpg')"
                   ></div>
                 </div>
-                <div class="products-text">
-                  Bubuk Maketti
-                </div>
-                <div class="products-price">
-                  $225
-                </div>
+                <div class="products-text">Sweater</div>
+                <div class="products-price">$225</div>
               </a>
             </div>
             <div
@@ -288,17 +200,11 @@
                 <div class="products-thumbnail">
                   <div
                     class="products-image"
-                    style="
-                      background-image: url('/images/products-tatakan-gelas.jpg');
-                    "
+                    style="background-image: url('/images/produk3.jpg')"
                   ></div>
                 </div>
-                <div class="products-text">
-                  Tatakan Gelas
-                </div>
-                <div class="products-price">
-                  $45,184
-                </div>
+                <div class="products-text">Blue Jeans</div>
+                <div class="products-price">$45,184</div>
               </a>
             </div>
             <div
@@ -310,17 +216,11 @@
                 <div class="products-thumbnail">
                   <div
                     class="products-image"
-                    style="
-                      background-image: url('/images/products-mavic-kawe.jpg');
-                    "
+                    style="background-image: url('/images/produk4.jpg')"
                   ></div>
                 </div>
-                <div class="products-text">
-                  Mavic Kawe
-                </div>
-                <div class="products-price">
-                  $503
-                </div>
+                <div class="products-text">Black Tshirt</div>
+                <div class="products-price">$503</div>
               </a>
             </div>
             <div
@@ -337,12 +237,8 @@
                     "
                   ></div>
                 </div>
-                <div class="products-text">
-                  Black Edition Nike
-                </div>
-                <div class="products-price">
-                  $70,482
-                </div>
+                <div class="products-text">Black Edition Nike</div>
+                <div class="products-price">$70,482</div>
               </a>
             </div>
             <div
@@ -354,17 +250,11 @@
                 <div class="products-thumbnail">
                   <div
                     class="products-image"
-                    style="
-                      background-image: url('/images/products-monkey-toys.jpg');
-                    "
+                    style="background-image: url('/images/produk5.jpg')"
                   ></div>
                 </div>
-                <div class="products-text">
-                  Monkey Toys
-                </div>
-                <div class="products-price">
-                  $783
-                </div>
+                <div class="products-text">Green Cardigan</div>
+                <div class="products-price">$783</div>
               </a>
             </div>
           </div>
@@ -376,9 +266,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <p class="pt-4 pb-2">
-              2019 Copyright Store. All Rights Reserved.
-            </p>
+            <p class="pt-4 pb-2">2019 Copyright Store. All Rights Reserved.</p>
           </div>
         </div>
       </div>
