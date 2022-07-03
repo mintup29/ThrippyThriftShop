@@ -13,7 +13,6 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="style/main.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   </head>
 
   <body>
@@ -24,7 +23,7 @@
     >
       <div class="container">
         <a class="navbar-brand" href="/">
-          <img src="/images/logo.png" alt="" />
+          <img src="images/logo.svg" alt="" />
         </a>
         <button
           class="navbar-toggler"
@@ -39,28 +38,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <input class="search-box" type="text" name="Search" placeholder="Type to search">
-              <a class="search-btn" href="#">
-                <i class="fas fa-search"></i>
-              </a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="/">Home </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="/categories.html">Categories</a>
+              <a class="nav-link" href="categories.html">Categories</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/chat.html">Chat</a>
+              <a class="nav-link" href="#">Rewards</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/register.html">Sign Up</a>
+              <a class="nav-link" href="register.html">Sign Up</a>
             </li>
             <li class="nav-item">
               <a
                 class="btn btn-success nav-link px-4 text-white"
-                href="/login.html"
+                href="login.html"
                 >Sign In</a
               >
             </li>
@@ -75,7 +68,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12" data-aos="fade-up">
-              <h5>All Categories</h5>
+              <h5>Semua Kategori Barang</h5>
             </div>
           </div>
           <div class="row">
@@ -84,15 +77,17 @@
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <a class="component-categories d-block" href="#">
+              <a class="component-categories d-block" href="categories pakaian.html">
                 <div class="categories-image">
                   <img
-                    src="/images/eceran.png"
-                    alt="Gadgets Categories"
+                    src="images/shirt-svgrepo-com.svg"
+                    alt="Pakaian"
                     class="w-100"
                   />
                 </div>
-                <p class="categories-text">Eceran</p>
+                <p class="categories-text">
+                  Pakaian
+                </p>
               </a>
             </div>
             <div
@@ -103,12 +98,86 @@
               <a class="component-categories d-block" href="#">
                 <div class="categories-image">
                   <img
-                    src="/images/grosir.png"
-                    alt="Furniture Categories"
+                    src="images/high-heels-svgrepo-com.svg"
+                    alt="Sepatu"
                     class="w-100"
                   />
                 </div>
-                <p class="categories-text">Grosir</p>
+                <p class="categories-text">
+                  Sepatu
+                </p>
+              </a>
+            </div>
+            <div
+              class="col-6 col-md-3 col-lg-2"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <a class="component-categories d-block" href="#">
+                <div class="categories-image">
+                  <img
+                    src="images/pants-svgrepo-com.svg"
+                    alt="Celana"
+                    class="w-100"
+                  />
+                </div>
+                <p class="categories-text">
+                  Celana
+                </p>
+              </a>
+            </div>
+            <div
+              class="col-6 col-md-3 col-lg-2"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <a class="component-categories d-block" href="#">
+                <div class="categories-image">
+                  <img
+                    src="images/aksesoris.svg"
+                    alt="Aksesoris"
+                    class="w-100"
+                  />
+                </div>
+                <p class="categories-text">
+                  Aksesoris
+                </p>
+              </a>
+            </div>
+            <div
+              class="col-6 col-md-3 col-lg-2"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <a class="component-categories d-block" href="#">
+                <div class="categories-image">
+                  <img
+                    src="images/tas.svg"
+                    alt="Tas"
+                    class="w-100"
+                  />
+                </div>
+                <p class="categories-text">
+                  Tas
+                </p>
+              </a>
+            </div>
+            <div
+              class="col-6 col-md-3 col-lg-2"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <a class="component-categories d-block" href="#">
+                <div class="categories-image">
+                  <img
+                    src="images/luaran.svg"
+                    alt="Luaran"
+                    class="w-100"
+                  />
+                </div>
+                <p class="categories-text">
+                  Luaran
+                </p>
               </a>
             </div>
           </div>
@@ -122,23 +191,26 @@
             </div>
           </div>
           <div class="row">
-            <div class="row">
             <div
               class="col-6 col-md-4 col-lg-3"
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <a class="component-products d-block" href="/details.html">
+              <a class="component-products d-block" href=details.html">
                 <div class="products-thumbnail">
                   <div
                     class="products-image"
                     style="
-                      background-image: url('/images/products-apple-watch.jpg');
+                      background-image: url('images/products-apple-watch.jpg');
                     "
                   ></div>
                 </div>
-                <div class="products-text">Apple Watch 4</div>
-                <div class="products-price">$890</div>
+                <div class="products-text">
+                  Apple Watch 4
+                </div>
+                <div class="products-price">
+                  IDR1,200,000
+                </div>
               </a>
             </div>
             <div
@@ -146,17 +218,21 @@
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <a class="component-products d-block" href="/details.html">
+              <a class="component-products d-block" href=details.html">
                 <div class="products-thumbnail">
                   <div
                     class="products-image"
                     style="
-                      background-image: url('/images/products-orange-bogotta.jpg');
+                      background-image: url('images/1_cardigan\ fuschia.jpg');
                     "
                   ></div>
                 </div>
-                <div class="products-text">Orange Bogotta</div>
-                <div class="products-price">$94,509</div>
+                <div class="products-text">
+                  Kardigan Fuschia
+                </div>
+                <div class="products-price">
+                 IDR40,000
+                </div>
               </a>
             </div>
             <div
@@ -164,15 +240,21 @@
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              <a class="component-products d-block" href="/details.html">
+              <a class="component-products d-block" href=details.html">
                 <div class="products-thumbnail">
                   <div
                     class="products-image"
-                    style="background-image: url('/images/produk1.jpg')"
+                    style="
+                      background-image: url('images/3_celana\ panjang\ flare.jpg');
+                    "
                   ></div>
                 </div>
-                <div class="products-text">Zip Jeans Denim</div>
-                <div class="products-price">$1,409</div>
+                <div class="products-text">
+                  Celana Panjang Lebar
+                </div>
+                <div class="products-price">
+                  IDR50,000
+                </div>
               </a>
             </div>
             <div
@@ -180,15 +262,21 @@
               data-aos="fade-up"
               data-aos-delay="400"
             >
-              <a class="component-products d-block" href="/details.html">
+              <a class="component-products d-block" href="details.html">
                 <div class="products-thumbnail">
                   <div
                     class="products-image"
-                    style="background-image: url('/images/produk2.jpg')"
+                    style="
+                      background-image: url('images/4_kemeja\ katun\ manik.jpg');
+                    "
                   ></div>
                 </div>
-                <div class="products-text">Sweater</div>
-                <div class="products-price">$225</div>
+                <div class="products-text">
+                  Jaket Katun
+                </div>
+                <div class="products-price">
+                  IDR90,000
+                </div>
               </a>
             </div>
             <div
@@ -196,15 +284,21 @@
               data-aos="fade-up"
               data-aos-delay="500"
             >
-              <a class="component-products d-block" href="/details.html">
+              <a class="component-products d-block" href="details.html">
                 <div class="products-thumbnail">
                   <div
                     class="products-image"
-                    style="background-image: url('/images/produk3.jpg')"
+                    style="
+                      background-image: url('images/1_kacamata\ bundar.jpg');
+                    "
                   ></div>
                 </div>
-                <div class="products-text">Blue Jeans</div>
-                <div class="products-price">$45,184</div>
+                <div class="products-text">
+                  Kacamata Bundar
+                </div>
+                <div class="products-price">
+                  IDR25,000
+                </div>
               </a>
             </div>
             <div
@@ -212,15 +306,21 @@
               data-aos="fade-up"
               data-aos-delay="600"
             >
-              <a class="component-products d-block" href="/details.html">
+              <a class="component-products d-block" href="details.html">
                 <div class="products-thumbnail">
                   <div
                     class="products-image"
-                    style="background-image: url('/images/produk4.jpg')"
+                    style="
+                      background-image: url('images/1_tas\ tote\ keith\ haring.jpg');
+                    "
                   ></div>
                 </div>
-                <div class="products-text">Black Tshirt</div>
-                <div class="products-price">$503</div>
+                <div class="products-text">
+                  Totebag Keith Haring
+                </div>
+                <div class="products-price">
+                  IDR50,000
+                </div>
               </a>
             </div>
             <div
@@ -228,17 +328,21 @@
               data-aos="fade-up"
               data-aos-delay="700"
             >
-              <a class="component-products d-block" href="/details.html">
+              <a class="component-products d-block" href="details.html">
                 <div class="products-thumbnail">
                   <div
                     class="products-image"
                     style="
-                      background-image: url('/images/products-black-edition-nike.jpg');
+                      background-image: url('images/products-black-edition-nike.jpg');
                     "
                   ></div>
                 </div>
-                <div class="products-text">Black Edition Nike</div>
-                <div class="products-price">$70,482</div>
+                <div class="products-text">
+                  Black Edition Nike
+                </div>
+                <div class="products-price">
+                  IDR800,000
+                </div>
               </a>
             </div>
             <div
@@ -246,15 +350,21 @@
               data-aos="fade-up"
               data-aos-delay="800"
             >
-              <a class="component-products d-block" href="/details.html">
+              <a class="component-products d-block" href="details.html">
                 <div class="products-thumbnail">
                   <div
                     class="products-image"
-                    style="background-image: url('/images/produk5.jpg')"
+                    style="
+                      background-image: url('images/7_sweatshirt\ kain\ rib.jpg');
+                    "
                   ></div>
                 </div>
-                <div class="products-text">Green Cardigan</div>
-                <div class="products-price">$783</div>
+                <div class="products-text">
+                  Jaket Kain Rib
+                </div>
+                <div class="products-price">
+                  IDR48,000
+                </div>
               </a>
             </div>
           </div>
@@ -266,7 +376,9 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <p class="pt-4 pb-2">2019 Copyright Store. All Rights Reserved.</p>
+            <p class="pt-4 pb-2">
+              2019 Copyright Store. All Rights Reserved.
+            </p>
           </div>
         </div>
       </div>
