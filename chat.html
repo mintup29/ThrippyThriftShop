@@ -13,266 +13,296 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="style/main.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style/chat.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style/chat.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
 
   <body>
-     <!-- Navigation -->
-     <nav
-     class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top"
-     data-aos="fade-down"
-     aria-label="Navbar"
-   >
-     <div class="container">
-       <a class="navbar-brand" href="/">
-         <img src="/images/logo.svg" alt="" />
-       </a>
-       <button
-         class="navbar-toggler"
-         type="button"
-         data-toggle="collapse"
-         data-target="#navbarResponsive"
-         aria-controls="navbarResponsive"
-         aria-expanded="false"
-         aria-label="Toggle navigation"
-       >
-         <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="collapse navbar-collapse" id="navbarResponsive">
-         <ul class="navbar-nav ml-auto">
-           <li class="nav-item">
-             <a class="nav-link" href="/">Home </a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="/categories.html">Categories</a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="/chat.html">Chat</a>
-           </li>
-         </ul>
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top"
+      data-aos="fade-down"
+      aria-label="Navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="/images/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/index-login.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/categories-login.html">Categories</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/chat.html">Chat</a>
+            </li>
+          </ul>
 
-         <!-- Desktop Menu -->
-         <ul class="navbar-nav d-none d-lg-flex">
-           <li class="nav-item dropdown">
-             <a
-               class="nav-link"
-               href="#"
-               id="navbarDropdown"
-               role="button"
-               data-toggle="dropdown"
-               aria-haspopup="true"
-               aria-expanded="false"
-             >
-               <img
-                 src="/images/icon-user.png"
-                 alt=""
-                 class="rounded-circle mr-2 profile-picture"
-               />
-               Hi, Angga
-             </a>
-             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <a class="dropdown-item" href="/dashboard.html">Dashboard</a>
-               <a class="dropdown-item" href="/dashboard-account.html"
-                 >Settings</a
-               >
-               <div class="dropdown-divider"></div>
-               <a class="dropdown-item" href="/">Logout</a>
-             </div>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link d-inline-block mt-2" href="#">
-               <img src="/images/icon-cart-empty.svg" alt="" />
-             </a>
-           </li>
-         </ul>
+          <!-- Desktop Menu -->
+          <ul class="navbar-nav d-none d-lg-flex">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <img
+                  src="/images/icon-user.png"
+                  alt=""
+                  class="rounded-circle mr-2 profile-picture"
+                />
+                Hi, Vicko
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/dashboard.html">Dashboard</a>
+                <a class="dropdown-item" href="/dashboard-account.html"
+                  >Settings</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/">Logout</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-inline-block mt-2" href="cart.html">
+                <img src="/images/icon-cart-empty.svg" alt="" />
+              </a>
+            </li>
+          </ul>
 
-         <!-- Mobile Menu -->
-         <ul class="navbar-nav d-block d-lg-none">
-           <li class="nav-item">
-             <a class="nav-link" href="#">
-               Hi, Angga
-             </a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link d-inline-block" href="#">
-               Cart
-             </a>
-           </li>
-         </ul>
-       </div>
-     </div>
-   </nav>
+          <!-- Mobile Menu -->
+          <ul class="navbar-nav d-block d-lg-none">
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Hi, Vicko </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-inline-block" href="#"> Cart </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- content -->
     <div class="page-content">
-        <div class="container-content">
-            <div class="main">
-            <div class="col-user">
-                <div class="head-user">
-                    <span>qoonitaulia_</span>
-                    <i class="fas fa-angle-down"></i>
-                    <i class="fas fa-edit edit"></i>
-                </div>
-
-                <div class="content-user">
-                    <span style="font-size: 15px;"><b>Chat</b></span>
-    
-                    <div class="user-chat flex">
-                        <div class="img-wrapper">
-                            <img src="/images/icon-testimonial-3.png" width="50px" alt="">
-                        </div>
-                        <div class="text-chat-user">
-                            <span class="chat-username">Qonita Aulia</span><br>
-                            <span class="chat-time">4 hours ago</span>
-                        </div>
-                    </div>
-                    <div class="user-chat flex">
-                        <div class="img-wrapper">
-                            <img src="/images/icon-user.png" width="50px" alt="">
-                        </div>
-                        <div class="text-chat-user">
-                            <span class="chat-username">Sarah Ulayya</span><br>
-                            <span class="chat-time">5 hours ago</span>
-                        </div>
-                    </div>
-                    <div class="user-chat flex">
-                        <div class="img-wrapper">
-                            <img src="/images/icon-testimonial-1.png" width="50px" alt="">
-                        </div>
-                        <div class="text-chat-user">
-                            <span class="chat-username">Vicko Danendra</span><br>
-                            <span class="chat-time">3 hours ago</span>
-                        </div>
-                    </div>
-                    <div class="user-chat flex">
-                        <div class="img-wrapper">
-                            <img src="/images/icon-testimonial-2.png" width="50px" alt="">
-                        </div>
-                        <div class="text-chat-user">
-                            <span class="chat-username">Yudhistira  Rakha</span><br>
-                            <span class="chat-time">Online</span>
-                        </div>
-                    </div>
-                    <div class="user-chat flex">
-                        <div class="img-wrapper">
-                            <img src="/images/icon-user.png" width="50px" alt="">
-                        </div>
-                        <div class="text-chat-user">
-                            <span class="chat-username">Ayu Dewi</span><br>
-                            <span class="chat-time">10 hours ago</span>
-                        </div>
-                    </div>
-                    <div class="user-chat flex">
-                        <div class="img-wrapper">
-                            <img src="/images/icon-user.png" width="50px" alt="">
-                        </div>
-                        <div class="text-chat-user">
-                            <span class="chat-username">Sarah Ulayya</span><br>
-                            <span class="chat-time">4 hours ago</span>
-                        </div>
-                    </div>
-                </div>
+      <div class="container-content">
+        <div class="main">
+          <div class="col-user">
+            <div class="head-user">
+              <span>qoonitaulia_</span>
+              <i class="fas fa-angle-down"></i>
+              <i class="fas fa-edit edit"></i>
             </div>
-            <div class="col-chat">
-                <div class="head-chat flex">
-                    <div class="content-head-chat">
-                        <div class="img-wrapper-chat">
-                            <img src="/images/icon-user.png" width="40px" class="img-circle-chat" alt="">
-                        </div>
-                    </div>
-                    <div class="text-header-chat">
-                        <span class="username">Sarah Ulayya</span><br>
-                        <span class="chat-time">4 hours ago</span>
-                    </div>
-                </div>
-    
-                <div class="content-chat">
-                    <div class="flex">
-                        <div class="img-wrapper-chat">
-                            <img src="/images/icon-user.png" width="33px" class="img-circle-chat" alt="">
-                        </div>
-                        <div class="chat">
-                            Halo!!
-                        </div>
-                    </div>
-                    
-                    <div class="flex mt-10">
-                      <div class="img-wrapper-chat">
-                          <img src="/images/icon-user.png" width="33px" class="img-circle-chat" alt="">
-                      </div>
-                      <div class="chat">
-                          <img src="/images/dashboard-icon-product-1.png" alt="">
-                      </div>
-                  </div>
 
-                    <div class="flex mt-10">
-                        <div class="img-wrapper-chat">
-                            <img src="/images/icon-user.png" width="33px" class="img-circle-chat" alt="">
-                        </div>
-                        <div class="chat">
-                            Apakah barang tersebut masih ada?
-                        </div>
-                    </div>
+            <div class="content-user">
+              <span style="font-size: 15px"><b>Chat</b></span>
 
-                    <div class="flex mt-10">
-                        <div class="img-wrapper-chat">
-                            <img src="/images/icon-user.png" width="33px" class="img-circle-chat" alt="">
-                        </div>
-                        <div class="chat">
-                            Saya mau menawar harga barang menjadi $50
-                        </div>
-                    </div>
-    
-                    <div class="chat-reply-wrapper">
-                        <div class="chat-reply">
-                            Halo terima kasih telah menghubungi.
-                        </div>
-                    </div>
-                    
-                    <div class="chat-reply-wrapper">
-                        <div class="chat-reply">
-                            Barang yang anda tanyakan masih tersedia di toko kami
-                        </div>
-                    </div>                
-    
-                    <div class="chat-reply-wrapper">
-                        <div class="chat-reply">
-                            Baik saya terima harga penawaran anda
-                        </div>
-                    </div> 
-    
-                    <div class="chat-reply-wrapper">
-                        <div class="chat-reply">
-                            Untuk mekanisme selanjutnya, pihak kami akan mengganti harga sesuai tawaran anda dan anda bisa langsung checkout
-                        </div>
-                    </div>   
-    
-                    <div class="chat-reply-wrapper">
-                        <div class="chat-reply">
-                            Thank you and happy shopping
-                        </div>
-                    </div>               
-    
+              <div class="user-chat flex">
+                <div class="img-wrapper">
+                  <img
+                    src="/images/icon-testimonial-3.png"
+                    width="50px"
+                    alt=""
+                  />
                 </div>
-                <div class="input-chat">
-                    <i class="far fa-smile"></i>
-                    <input type="text" class="input" placeholder="Message...">
-                    <i class="far fa-image"></i>
-                    <i class="far fa-heart"></i>
+                <div class="text-chat-user">
+                  <span class="chat-username">Qonita Aulia</span><br />
+                  <span class="chat-time">4 hours ago</span>
                 </div>
+              </div>
+              <div class="user-chat flex">
+                <div class="img-wrapper">
+                  <img src="/images/icon-user.png" width="50px" alt="" />
+                </div>
+                <div class="text-chat-user">
+                  <span class="chat-username">Sarah Ulayya</span><br />
+                  <span class="chat-time">5 hours ago</span>
+                </div>
+              </div>
+              <div class="user-chat flex">
+                <div class="img-wrapper">
+                  <img
+                    src="/images/icon-testimonial-1.png"
+                    width="50px"
+                    alt=""
+                  />
+                </div>
+                <div class="text-chat-user">
+                  <span class="chat-username">Vicko Danendra</span><br />
+                  <span class="chat-time">3 hours ago</span>
+                </div>
+              </div>
+              <div class="user-chat flex">
+                <div class="img-wrapper">
+                  <img
+                    src="/images/icon-testimonial-2.png"
+                    width="50px"
+                    alt=""
+                  />
+                </div>
+                <div class="text-chat-user">
+                  <span class="chat-username">Yudhistira Rakha</span><br />
+                  <span class="chat-time">Online</span>
+                </div>
+              </div>
+              <div class="user-chat flex">
+                <div class="img-wrapper">
+                  <img src="/images/icon-user.png" width="50px" alt="" />
+                </div>
+                <div class="text-chat-user">
+                  <span class="chat-username">Ayu Dewi</span><br />
+                  <span class="chat-time">10 hours ago</span>
+                </div>
+              </div>
+              <div class="user-chat flex">
+                <div class="img-wrapper">
+                  <img src="/images/icon-user.png" width="50px" alt="" />
+                </div>
+                <div class="text-chat-user">
+                  <span class="chat-username">Sarah Ulayya</span><br />
+                  <span class="chat-time">4 hours ago</span>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="col-chat">
+            <div class="head-chat flex">
+              <div class="content-head-chat">
+                <div class="img-wrapper-chat">
+                  <img
+                    src="/images/icon-user.png"
+                    width="40px"
+                    class="img-circle-chat"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="text-header-chat">
+                <span class="username">Sarah Ulayya</span><br />
+                <span class="chat-time">4 hours ago</span>
+              </div>
             </div>
+
+            <div class="content-chat">
+              <div class="flex">
+                <div class="img-wrapper-chat">
+                  <img
+                    src="/images/icon-user.png"
+                    width="33px"
+                    class="img-circle-chat"
+                    alt=""
+                  />
+                </div>
+                <div class="chat">Halo!!</div>
+              </div>
+
+              <div class="flex mt-10">
+                <div class="img-wrapper-chat">
+                  <img
+                    src="/images/icon-user.png"
+                    width="33px"
+                    class="img-circle-chat"
+                    alt=""
+                  />
+                </div>
+                <div class="chat">
+                  <img src="/images/dashboard-icon-product-1.png" alt="" />
+                </div>
+              </div>
+
+              <div class="flex mt-10">
+                <div class="img-wrapper-chat">
+                  <img
+                    src="/images/icon-user.png"
+                    width="33px"
+                    class="img-circle-chat"
+                    alt=""
+                  />
+                </div>
+                <div class="chat">Apakah barang tersebut masih ada?</div>
+              </div>
+
+              <div class="flex mt-10">
+                <div class="img-wrapper-chat">
+                  <img
+                    src="/images/icon-user.png"
+                    width="33px"
+                    class="img-circle-chat"
+                    alt=""
+                  />
+                </div>
+                <div class="chat">
+                  Saya mau menawar harga barang menjadi $50
+                </div>
+              </div>
+
+              <div class="chat-reply-wrapper">
+                <div class="chat-reply">
+                  Halo terima kasih telah menghubungi.
+                </div>
+              </div>
+
+              <div class="chat-reply-wrapper">
+                <div class="chat-reply">
+                  Barang yang anda tanyakan masih tersedia di toko kami
+                </div>
+              </div>
+
+              <div class="chat-reply-wrapper">
+                <div class="chat-reply">
+                  Baik saya terima harga penawaran anda
+                </div>
+              </div>
+
+              <div class="chat-reply-wrapper">
+                <div class="chat-reply">
+                  Untuk mekanisme selanjutnya, pihak kami akan mengganti harga
+                  sesuai tawaran anda dan anda bisa langsung checkout
+                </div>
+              </div>
+
+              <div class="chat-reply-wrapper">
+                <div class="chat-reply">Thank you and happy shopping</div>
+              </div>
+            </div>
+            <div class="input-chat">
+              <i class="far fa-smile"></i>
+              <input type="text" class="input" placeholder="Message..." />
+              <i class="far fa-image"></i>
+              <i class="far fa-heart"></i>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    
+
     <!-- Bootstrap core JavaScript -->
     <script src="/vendor/jquery/jquery.slim.min.js"></script>
     <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-    AOS.init();
+      AOS.init();
     </script>
     <script src="/script/navbar-scroll.js"></script>
-</body>
+  </body>
 </html>
